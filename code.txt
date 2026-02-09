@@ -1,3 +1,0 @@
-printf(Hello)
-printf('Hello sadaf')
-print('the content of the code file is changed')
