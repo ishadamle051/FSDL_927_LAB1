@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>College Admission Form</h2>
+
+    <form id="collegeForm">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" placeholder="Enter phone number">
+
+        <label>Course</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>B.Tech Computer Science</option>
+            <option>B.Tech IT</option>
+            <option>B.Sc</option>
+            <option>BCA</option>
+        </select>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+
+        <label>Address</label>
+        <textarea id="address" placeholder="Enter your address"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
