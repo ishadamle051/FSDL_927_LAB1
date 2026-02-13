@@ -1,0 +1,24 @@
+/* Tag Selector */
+p {
+    line-height: 1.6;
+}
+
+/* Class Selector */
+.section-box {
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* ID Selector */
+#register {
+    border: 3px solid navy;
+}
+
+/* Navigation Styling */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    font-size: 14px;
+}
